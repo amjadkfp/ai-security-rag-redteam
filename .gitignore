@@ -1,0 +1,15 @@
+# secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# vector db local files
+chroma_db/
+
+# OS
+.DS_Store
