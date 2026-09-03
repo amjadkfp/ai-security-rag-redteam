@@ -1,0 +1,22 @@
+Student Code of Conduct
+
+Tyndex Lab is committed to maintaining a respectful, inclusive, and
+professional learning environment. All students are expected to:
+
+1. Treat instructors, mentors, and fellow students with respect.
+2. Use lab environments only for their intended educational purpose.
+3. Not attempt to access systems, accounts, or data outside the scope of
+   assigned lab exercises.
+4. Not share exam content, lab solutions, or certification materials outside
+   their cohort.
+5. Report any technical issues or safety concerns to their instructor or
+   the support team promptly.
+
+Violations
+Violations of this code of conduct may result in a warning, temporary
+suspension from lab access, or removal from the program without refund,
+depending on severity. Serious violations (e.g., unauthorized access attempts
+against Tyndex Lab infrastructure, harassment) result in immediate removal.
+
+Appeals may be submitted in writing to conduct@tyndexlab.example within 10
+days of a decision.

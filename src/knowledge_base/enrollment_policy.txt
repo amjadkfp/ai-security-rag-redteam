@@ -1,0 +1,23 @@
+Course Enrollment Policy
+
+Eligibility
+Students must be 18 years or older to enroll in any Tyndex Lab program.
+No prior technical background is required for foundational courses. Advanced
+tracks (Offensive Security, AI/ML Security) require completion of the
+Cybersecurity Fundamentals course or equivalent experience, verified during
+enrollment review.
+
+Enrollment process
+1. Submit an online application through the student portal.
+2. Complete the placement questionnaire.
+3. Attend a 15-minute enrollment call with an admissions advisor.
+4. Receive confirmation and access credentials within 3 business days.
+
+Deferrals
+Students may defer enrollment to the next cohort up to 7 days before the
+program start date, at no additional cost. Deferrals requested within 7 days
+of start date are subject to a $50 administrative fee.
+
+Cohort sizes
+Cohorts are capped at 25 students to maintain instructor-to-student ratios
+suitable for hands-on lab work.

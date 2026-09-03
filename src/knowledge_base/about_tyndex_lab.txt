@@ -1,0 +1,22 @@
+About Tyndex Lab
+
+Tyndex Lab is an AI and cybersecurity education organization offering hands-on
+training in artificial intelligence, cybersecurity, cloud security, and
+emerging technologies. We serve students, working professionals, instructors,
+and mentors through online programs, instructor-led classes, and practical
+labs.
+
+Our mission is to bridge the gap between theoretical learning and real-world
+technical skill by giving students direct experience with the tools and
+scenarios they will encounter in the field.
+
+Programs offered:
+- Cybersecurity Fundamentals (8 weeks)
+- Offensive Security & Penetration Testing (12 weeks)
+- Cloud Security Engineering (10 weeks)
+- AI & Machine Learning Security (10 weeks)
+- SOC Analyst Career Track (16 weeks)
+
+Tyndex Lab was founded with the goal of making advanced technical education
+accessible through practical labs rather than lecture-only formats. All
+programs include hands-on lab environments and instructor mentorship.

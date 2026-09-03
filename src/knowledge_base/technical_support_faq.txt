@@ -1,0 +1,26 @@
+Technical Support FAQ
+
+Q: I can't access my lab environment. What do I do?
+A: First, check the platform status page. If labs show as operational, try
+clearing your browser cache or using an incognito window. If the issue
+persists, contact support@tyndexlab.example with your student ID.
+
+Q: My certification exam won't load.
+A: Ensure you're using a supported browser (Chrome or Firefox, latest
+version) and that your webcam/microphone permissions are enabled for the
+proctoring tool. Contact support at least 30 minutes before your scheduled
+exam if issues persist.
+
+Q: How do I reset my password?
+A: Use the "Forgot Password" link on the login page. If you don't receive
+a reset email within 10 minutes, check your spam folder, then contact
+support.
+
+Q: Can I access lab environments on mobile?
+A: Lab environments require a desktop or laptop browser. Course videos and
+portal browsing are mobile-friendly, but hands-on labs are not supported on
+mobile devices.
+
+Q: Who do I contact for billing questions?
+A: Email billing@tyndexlab.example or use the Billing tab in the student
+portal.

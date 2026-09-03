@@ -1,0 +1,18 @@
+Attendance Policy
+
+Live sessions
+Students are expected to attend at least 80% of live instructor-led sessions
+per program. Recordings are made available within 24 hours for students who
+miss a live session.
+
+Lab deadlines
+Hands-on lab assignments must be submitted within 7 days of being assigned
+unless an extension is granted by the instructor.
+
+Extended absence
+Students anticipating an absence of more than 5 consecutive days should
+notify their instructor and may request a pause in their cohort timeline
+(available once per program, up to 14 days).
+
+Failure to meet minimum attendance without an approved absence may result in
+removal from the certification track for that cohort.

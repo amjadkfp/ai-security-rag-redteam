@@ -1,0 +1,18 @@
+VPN and Remote Access Policy
+
+Staff and instructors accessing internal Tyndex Lab systems remotely must
+connect via the approved corporate VPN client. Split tunneling is disabled
+by default.
+
+Access requirements
+- VPN access requires MFA in addition to standard credentials
+- Sessions automatically time out after 45 minutes of inactivity
+- Remote access logs are retained for 90 days for security auditing
+
+Student lab environments are cloud-hosted and accessed directly through the
+browser-based lab portal; VPN is not required for standard student lab
+access.
+
+Any staff member requiring VPN access from a new or unrecognized device must
+submit a request to IT Support at least 1 business day in advance for
+approval.

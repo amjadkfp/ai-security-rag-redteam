@@ -1,0 +1,23 @@
+Acceptable Use Policy - Lab Environments
+
+Tyndex Lab provides sandboxed lab environments for hands-on cybersecurity and
+AI training. The following rules apply to all lab usage:
+
+Permitted use
+- Completing assigned lab exercises within the provided sandbox
+- Practicing techniques taught in the curriculum against lab-provided targets
+- Documenting findings for coursework submissions
+
+Prohibited use
+- Attempting to access, scan, or attack any system outside the assigned lab
+  sandbox, including Tyndex Lab's own production infrastructure
+- Attempting to exfiltrate lab environment credentials or configuration for
+  use outside the platform
+- Using lab environments to attack third-party systems on the internet
+- Installing or running unauthorized tools not required for the assigned
+  exercise
+
+Violations of this policy may result in immediate lab access suspension and
+review under the Student Code of Conduct. Serious violations, including any
+unauthorized access attempt against production systems, are reported to the
+Security team and may result in permanent removal from the program.

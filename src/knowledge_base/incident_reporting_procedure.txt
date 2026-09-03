@@ -1,0 +1,20 @@
+Security Incident Reporting Procedure
+
+Any staff member, instructor, or student who suspects a security incident
+(unauthorized access, data exposure, phishing attempt, suspicious account
+activity) should report it immediately.
+
+How to report
+1. Email security@tyndexlab.example with subject line "SECURITY INCIDENT"
+2. Include: what you observed, when it occurred, and any relevant screenshots
+3. Do not attempt to investigate or remediate the issue yourself
+
+Response times
+- Critical incidents (active unauthorized access, data breach): acknowledged
+  within 1 hour
+- High severity: acknowledged within 4 hours
+- Medium/low severity: acknowledged within 1 business day
+
+All incident reports are logged and reviewed by the Security team. Reporters
+are not penalized for good-faith reports, including reports of their own
+mistakes (e.g., accidentally clicking a phishing link).

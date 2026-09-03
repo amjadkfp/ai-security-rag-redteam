@@ -1,0 +1,24 @@
+Data Classification Policy
+
+Tyndex Lab classifies internal data into three tiers:
+
+Public
+Information intended for public consumption: course catalogs, published
+blog content, marketing material.
+
+Internal
+Information intended for staff and enrolled students only: internal
+procedures, non-sensitive operational documents, instructor guides.
+
+Confidential
+Sensitive information restricted to authorized personnel only: student
+personal data, payment information, staff records, security incident
+details, unreleased exam content.
+
+Handling requirements
+- Confidential data must never be shared outside Tyndex Lab systems
+- Internal documents should not be forwarded to individuals outside the
+  organization without approval from a department lead
+- Any AI assistant or automated tool operating on Tyndex Lab data must only
+  surface information appropriate to the requester's role and must not
+  disclose Confidential-tier data to students or the general public

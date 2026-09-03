@@ -1,0 +1,18 @@
+Academic Integrity Policy
+
+Tyndex Lab expects all students to complete labs, assignments, and exams
+honestly and independently unless collaboration is explicitly permitted by
+the instructor.
+
+Prohibited conduct includes:
+- Submitting another student's work as your own
+- Sharing exam or lab solutions with other students or online
+- Using unauthorized AI tools to generate exam answers
+- Falsifying lab completion records
+
+First violation: written warning and required resubmission.
+Second violation: suspension from the current cohort for 2 weeks.
+Third violation: permanent removal from the program without refund.
+
+Students may appeal a finding through the academic integrity review board
+by emailing integrity@tyndexlab.example within 10 business days.

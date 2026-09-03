@@ -1,0 +1,24 @@
+Certification Exam Rules
+
+Eligibility
+Students must complete all required labs and maintain 80% attendance to sit
+for the Tyndex Lab certification exam.
+
+Exam format
+- 60 multiple-choice questions
+- 2 practical lab scenarios
+- 3-hour time limit
+- Proctored remotely via webcam
+
+Retake policy
+Students who do not pass may retake the exam once at no cost within 30 days.
+Additional retakes are available for a $75 fee.
+
+Prohibited during exam
+- Use of external AI assistants or chatbots
+- Communication with other students
+- Use of unauthorized reference material outside the approved exam
+  environment
+
+Violations of exam integrity rules result in automatic exam failure and
+review under the Academic Integrity Policy.

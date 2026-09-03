@@ -1,0 +1,23 @@
+Refund and Cancellation Policy
+
+Full refund window
+Students may request a full refund within 5 calendar days of program start,
+provided fewer than 2 lab sessions have been completed.
+
+Partial refund window
+Between day 6 and day 14 of the program, students are eligible for a 50%
+refund of tuition paid.
+
+No refund period
+No refunds are issued after day 14 of the program, or after 3 or more lab
+sessions have been completed, whichever comes first.
+
+Cancellation by Tyndex Lab
+If Tyndex Lab cancels a cohort due to insufficient enrollment, students
+receive a full refund or the option to transfer to the next available cohort
+at no charge.
+
+How to request a refund
+Submit a refund request through the student portal under Billing > Refund
+Request, or email billing@tyndexlab.example. Refunds are processed within
+10 business days.
