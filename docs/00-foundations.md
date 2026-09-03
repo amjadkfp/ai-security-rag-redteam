@@ -31,4 +31,4 @@ Personal notes to build understanding before touching code. Write these in your 
 - [ ] OWASP LLM Top 10 (full doc)
 - [ ] MITRE ATLAS matrix
 - [ ] Simon Willison's prompt injection writing
-- [ ] [add others as you go]
+
