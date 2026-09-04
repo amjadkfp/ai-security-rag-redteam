@@ -20,6 +20,8 @@
 📄 Full report (in progress): [`docs/05-final-report.md`](docs/05-final-report.md)
 📊 Before/after results (in progress): [`results/`](results/)
 
+![Project methodology and target system architecture](docs/assets/architecture.png)
+
 ---
 
 ## Why this project
