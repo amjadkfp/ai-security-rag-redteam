@@ -3,6 +3,8 @@
 > A hands-on offensive + defensive security assessment of a RAG-based chatbot, mapped to the OWASP Top 10 for LLM Applications and MITRE ATLAS.
 
 **Status:** 🟡 In Progress — Phase 1 of 5 complete
+
+
 **Author:**  Amjad Khaleel Farhan | https://www.linkedin.com/in/amjad-khaleel-farhan-97290b228/ 
 
 ---
