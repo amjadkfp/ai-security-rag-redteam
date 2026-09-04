@@ -3,7 +3,9 @@
 > A hands-on offensive + defensive security assessment of a RAG-based chatbot, mapped to the OWASP Top 10 for LLM Applications and MITRE ATLAS.
 
 **Status:** 🟡 In Progress — Phase 1 of 5 complete
-**Author:** [Amjad Khaleel Farhan] | [https://www.linkedin.com/in/amjad-khaleel-farhan-97290b228/] 
+
+
+**Author:** Amjad Khaleel Farhan | [LinkedIn](https://www.linkedin.com/in/amjad-khaleel-farhan-97290b228/)
 
 ---
 
@@ -17,6 +19,8 @@
 
 📄 Full report (in progress): [`docs/05-final-report.md`](docs/05-final-report.md)
 📊 Before/after results (in progress): [`results/`](results/)
+
+![Project methodology and target system architecture](docs/assets/architecture.png)
 
 ---
 
@@ -34,14 +38,14 @@ I'm a cybersecurity student with no prior AI/ML background, building this projec
 
 ## Repo structure
 
-docs/ phase-by-phase writeups, findings, final report
-results/ raw scanner output, pre- and post-mitigation
-src/ application code (target system + defenses)
-knowledge_base/ 18 fictional internal documents (Tyndex Lab)
-build_index.py embeds documents into ChromaDB
-chat.py the RAG chat loop (retrieve → prompt → Groq → answer)
-
-
+```
+docs/           phase-by-phase writeups, findings, final report
+results/        raw scanner output, pre- and post-mitigation
+src/            application code (target system + defenses)
+  knowledge_base/   18 fictional internal documents (Tyndex Lab)
+  build_index.py    embeds documents into ChromaDB
+  chat.py           the RAG chat loop (retrieve → prompt → Groq → answer)
+```
 
 ## How to run
 
