@@ -5,6 +5,7 @@
 **Status:** 🟡 In Progress — Phase 1 of 5 complete
 
 
+
 **Author:** Amjad Khaleel Farhan | [LinkedIn](https://www.linkedin.com/in/amjad-khaleel-farhan-97290b228/)
 
 ---
@@ -70,7 +71,7 @@ python src/chat.py          # starts the interactive assistant
 |---|---|---|
 | 0 — Foundations | 🟡 | [docs/00-foundations.md](docs/00-foundations.md) |
 | 1 — Build target system | ✅ | [docs/01-architecture.md](docs/01-architecture.md) |
-| 2 — Manual attacks | ⬜ | [docs/02-manual-findings.md](docs/02-manual-findings.md) |
+| 2 — Manual attacks | 🟡 | [docs/02-manual-findings.md](docs/02-manual-findings.md) |
 | 3 — Automated scanning | ⬜ | [docs/03-automated-scan.md](docs/03-automated-scan.md) |
 | 4 — Mitigations | ⬜ | [docs/04-mitigations.md](docs/04-mitigations.md) |
 | 5 — Final report | ⬜ | [docs/05-final-report.md](docs/05-final-report.md) |
