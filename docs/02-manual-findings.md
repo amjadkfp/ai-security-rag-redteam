@@ -209,8 +209,8 @@ Per `docs/01-architecture.md`, the target system has no tool/action access — i
 
 ## Attacks to attempt (checklist)
 
-- [ ] Direct prompt injection — override system instructions
-- [ ] Indirect prompt injection — instruction planted in retrieved document
+- [x] Direct prompt injection — override system instructions
+- [x] Indirect prompt injection — instruction planted in retrieved document
 - [x] Jailbreak — roleplay/hypothetical framing to bypass refusal
 - [x] System prompt exfiltration
 - [x] Sensitive data exfiltration from knowledge base

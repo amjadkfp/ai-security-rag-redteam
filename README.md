@@ -65,13 +65,25 @@ python src/chat.py          # starts the interactive assistant
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [MITRE ATLAS](https://atlas.mitre.org/)
 
+## Findings summary (Phase 2)
+
+| # | Finding | OWASP | ATLAS | Severity | Status |
+|---|---|---|---|---|---|
+| 1 | Indirect Prompt Injection via Poisoned Internal Document | LLM01 | AML.T0051 | Critical | Open |
+| 2 | Direct Prompt Injection via Explicit Override Instruction | LLM01 | AML.T0051 | Critical | Open |
+| 3 | Jailbreak via Roleplay/Hypothetical Framing (Unsuccessful) | LLM01 | AML.T0054 | Informational | Closed |
+| 4 | System Prompt Exfiltration via Plain, Non-Adversarial Phrasing | LLM07 | AML.T0051 | Critical | Open |
+| 5 | No Role-Based Access Control Enables Disclosure of Staff-Only Information | LLM02 | AML.T0057 | Critical | Open |
+
+Full write-ups with reproduction steps, exact payloads, and screenshots: [`docs/02-manual-findings.md`](docs/02-manual-findings.md)
+
 ## Project log
 
 | Phase | Status | Doc |
 |---|---|---|
 | 0 — Foundations | 🟡 | [docs/00-foundations.md](docs/00-foundations.md) |
 | 1 — Build target system | ✅ | [docs/01-architecture.md](docs/01-architecture.md) |
-| 2 — Manual attacks | 🟡 | [docs/02-manual-findings.md](docs/02-manual-findings.md) |
+| 2 — Manual attacks | ✅ | [docs/02-manual-findings.md](docs/02-manual-findings.md) |
 | 3 — Automated scanning | ⬜ | [docs/03-automated-scan.md](docs/03-automated-scan.md) |
 | 4 — Mitigations | ⬜ | [docs/04-mitigations.md](docs/04-mitigations.md) |
 | 5 — Final report | ⬜ | [docs/05-final-report.md](docs/05-final-report.md) |
