@@ -7,7 +7,7 @@ This is the core RAG (Retrieval-Augmented Generation) loop:
   1. Take the user's question
   2. Embed it and find the most relevant knowledge base documents
   3. Stuff those documents + the question into a prompt
-  4. Send that prompt to the LLM (via Groq)
+  4. Send that prompt to the LLM (via Gemini)
   5. Print the answer
 
 Run it with:
@@ -19,10 +19,10 @@ Make sure you've run build_index.py at least once first.
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-from groq import Groq
+from google import genai
 from dotenv import load_dotenv
 
-load_dotenv()  # reads GROQ_API_KEY out of your .env file
+load_dotenv()  # reads GEMINI_API_KEY (and GROQ_API_KEY, kept for the Phase 2/3 Groq snapshot) out of your .env file
 
 DB_DIR = os.path.join(os.path.dirname(__file__), "..", "chroma_db")
 COLLECTION_NAME = "tyndex_lab_kb"
@@ -68,17 +68,18 @@ ANSWER:"""
 
 
 def ask_llm(client, user_prompt):
-    """Send the assembled prompt to Groq and return the response text."""
-    response = client.chat.completions.create(
-     model="openai/gpt-oss-20b",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.2,
-        max_tokens=500,
+    """Send the assembled prompt to Gemini and return the response text."""
+    response = client.models.generate_content(
+        model="gemini-3.6-flash",
+        contents=user_prompt,
+        config={
+            "system_instruction": SYSTEM_PROMPT,
+            "temperature": 0.2,
+            "max_output_tokens": 2048,
+            "thinking_config": {"thinking_level": "low"},
+        },
     )
-    return response.choices[0].message.content
+    return response.text
 
 
 def main():
@@ -88,8 +89,7 @@ def main():
     print("Connecting to ChromaDB...")
     chroma_client = chromadb.PersistentClient(path=DB_DIR)
     collection = chroma_client.get_collection(COLLECTION_NAME)
-
-    groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+    gemini_client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
     print("\nTyndex Lab AI Assistant ready. Type 'exit' to quit.\n")
 
@@ -102,7 +102,7 @@ def main():
 
         docs, sources = get_context(query, embedder, collection)
         prompt = build_prompt(query, docs)
-        answer = ask_llm(groq_client, prompt)
+        answer = ask_llm(gemini_client, prompt)
 
         print(f"\nAssistant: {answer}")
         print(f"[Retrieved from: {', '.join(sources)}]\n")

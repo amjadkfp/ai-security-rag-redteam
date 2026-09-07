@@ -1,4 +1,5 @@
 groq
+google-genai
 chromadb
 sentence-transformers
 python-dotenv
