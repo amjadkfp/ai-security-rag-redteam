@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-navy-950: #05070d;
+  --color-navy-900: #0a0e17;
+  --color-navy-800: #0f1420;
+  --color-navy-700: #161d2e;
+  --color-navy-600: #1f2940;
+
+  --color-cyan-400: #4dd6ff;
+  --color-cyan-500: #22c1ff;
+  --color-cyan-600: #0ea5e9;
+
+  --color-silver-100: #eef1f6;
+  --color-silver-300: #c3ccdb;
+  --color-silver-500: #8a94a8;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #05070d;
+  background-image:
+    linear-gradient(rgba(34, 193, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 193, 255, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  color: #eef1f6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(34, 193, 255, 0.3);
+  color: #eef1f6;
+}
+
+/* visible keyboard focus */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid #22c1ff;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0a0e17; }
+::-webkit-scrollbar-thumb { background: #1f2940; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #22c1ff44; }
+
+.status-glow {
+  box-shadow: 0 0 12px 2px currentColor;
+}

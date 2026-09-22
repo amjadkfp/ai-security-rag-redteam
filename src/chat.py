@@ -17,6 +17,7 @@ Make sure you've run build_index.py at least once first.
 """
 
 import os
+import time
 import chromadb
 from sentence_transformers import SentenceTransformer
 from google import genai
@@ -69,6 +70,12 @@ ANSWER:"""
 
 def ask_llm(client, user_prompt):
     """Send the assembled prompt to Gemini and return the response text."""
+    # Gemini free tier for gemini-3.6-flash is limited to 5 requests/minute
+    # (confirmed directly from the API's 429 error response, not docs --
+    # docs/search results gave inconsistent numbers). Sleeping 13s before
+    # every call keeps us safely under that, even if garak or another
+    # caller fires requests back-to-back with no spacing of its own.
+    time.sleep(13)
     response = client.models.generate_content(
         model="gemini-3.6-flash",
         contents=user_prompt,
